@@ -314,6 +314,10 @@
 }
 
 .footer__button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
   background-color: transparent;
   border: none;
@@ -455,7 +459,7 @@
     height: 696px;
   }
   .footer {
-    width: 355px;
+    width: 335px;
     height: 55px;
     margin: 0 auto 100px;
   }
@@ -469,7 +473,6 @@
     flex-direction: row;
     gap: 8px;
     align-items: center;
-    width: 100%;
   }
   .modal {
     width: 353px;
