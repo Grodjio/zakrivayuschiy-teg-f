@@ -19,4 +19,5 @@
   --bg-color: #fff;
   --box-shadow: 2px 2px 0 0 #000;
   --accent-color: #000;
+  --header-width: clamp(375px, 100%, 700px);
 }

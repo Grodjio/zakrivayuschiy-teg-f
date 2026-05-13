@@ -32,7 +32,8 @@
   min-width: 375px;
   max-height: 667px;
   height: 327px;
-  margin: 100px 0;
+  width: var(--header-width);
+  margin: 100px auto;
   gap: 20px;
   border: var(--border);
 }
@@ -444,7 +445,6 @@
 
 @media (width > 375px) {
   .header {
-    margin: 100px auto 98px;
     width: 700px;
     height: 368px;
   }
