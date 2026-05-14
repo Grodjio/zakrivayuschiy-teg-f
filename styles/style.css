@@ -296,9 +296,6 @@
   width: 130px;
 }
 
-.footer {
-}
-
 .diskette {
   margin-bottom: 4px;
 }
@@ -309,7 +306,6 @@
   align-items: center;
   justify-content: center;
   gap: 4px;
-  border: none;
   height: 100%;
   min-height: 84px;
   width: 308px;
