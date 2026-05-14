@@ -22,7 +22,6 @@
   --animation-hover-color: #000;
   --bg-color: #fff;
   --box-shadow: 2px 2px 0 0 #000;
-  --box-shadow-bottom: 2px 2px 0 2px #000;
   --accent-color: #000;
   --header-width: clamp(375px, 100%, 700px);
 }

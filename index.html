@@ -610,20 +610,23 @@
           </div>
         </div>
       </article>
-      <div class="footer">
-        <button
-          class="footer__button button"
-          type="button"
-          onclick="window['dialog-id'].showModal()"
-          aria-controls="dialog-id"
-          aria-label="Сохранить на память"
+      <button
+        class="footer__button button"
+        type="button"
+        onclick="window['dialog-id'].showModal()"
+        aria-controls="dialog-id"
+        aria-label="Сохранить на память"
+      >
+        <svg
+          class="footer__diskette diskette"
+          width="28"
+          height="28"
+          viewBox="0 0 28 28"
         >
-          <svg class="diskette" width="28" height="28" viewBox="0 0 28 28">
-            <use href="./svg/diskette.svg#diskette"></use>
-          </svg>
-          <span class="button__text"> Сохранить на память </span>
-        </button>
-      </div>
+          <use href="./svg/diskette.svg#diskette"></use>
+        </svg>
+        <span class="button__text"> Сохранить на память </span>
+      </button>
       <dialog id="dialog-id" class="modal">
         <div class="modal-text">
           <svg class="diskette" width="39" height="39" viewBox="0 0 39 39">
